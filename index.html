@@ -1,0 +1,109 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VANTA — Tienda Urbana</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body><div class="top-marquee">
+  <div class="top-marquee-track">
+    ENVÍOS A TODO EL PAÍS · 3 Y 6 CUOTAS SIN INTERÉS · ACEPTAMOS TODAS LAS TARJETAS ·
+    ENVÍOS A TODO EL PAÍS · 3 Y 6 CUOTAS SIN INTERÉS · ACEPTAMOS TODAS LAS TARJETAS ·
+  </div>
+</div>
+<header><a class="logo" href="#">VANTA</a><nav><a href="#coleccion">Colección</a><a href="#nosotros">Nosotros</a></nav><button id="cartBtn">Carrito <span id="cartCount">0</span></button></header>
+<main>
+<section class="hero">
+  <div>
+    <p class="eyebrow">NUEVA COLECCIÓN · 2026</p>
+
+    <h1>
+      Vestí tu<br>
+      <em>propia historia.</em>
+    </h1>
+
+    <p>
+      Prendas urbanas pensadas para todos los días.
+      Diseño simple, actitud fuerte.
+    </p>
+
+    <a class="cta" href="#coleccion">Ver colección</a>
+  </div>
+
+  <div class="hero-card">
+    <img src="images/hero.jpg" alt="VANTA Street Essentials">
+
+    <div class="hero-card-overlay">
+      <span>VANTA / 01</span>
+
+      <strong>
+        STREET<br>
+        ESSENTIALS
+      </strong>
+
+      <small>BUENOS AIRES · 2026</small>
+    </div>
+  </div>
+</section>
+<section id="coleccion"><div class="section-head"><div><p class="eyebrow">SELECCIÓN</p><h2>Destacados</h2></div><span>04 productos</span></div><div class="products" id="products"></div></section>
+<section id="nosotros" class="statement">
+  <div class="vanta-word">VANTA</div>
+
+  <p>
+    MENOS RUIDO.<br>
+    <em>MÁS ACTITUD.</em>
+  </p>
+
+  <span>BUENOS AIRES · 2026</span>
+</section>
+</main>
+
+<div class="cart-overlay" id="cartOverlay"></div>
+<div class="product-modal" id="productModal">
+  <div class="product-modal-content">
+
+    <button type="button" id="closeProductModal" class="close-product-modal">×</button>
+
+    <div class="product-modal-image">
+      <img id="modalImage" src="" alt="">
+    </div>
+
+    <div class="product-modal-info">
+      <p class="eyebrow">VANTA / PRODUCTO</p>
+      <h2 id="modalName"></h2>
+      <p id="modalDescription"></p>
+      <strong id="modalPrice"></strong>
+
+      <button id="modalAdd" class="modal-add">
+        Agregar al carrito
+      </button>
+    </div>
+
+  </div>
+</div>
+
+<aside class="cart-panel" id="cartPanel">
+  <div class="cart-header">
+    <div>
+      <p class="eyebrow">TU SELECCIÓN</p>
+      <h2>Carrito</h2>
+    </div>
+
+    <button id="closeCart" class="close-cart">×</button>
+  </div>
+
+  <div id="cartItems" class="cart-items"></div>
+
+  <div class="cart-footer">
+    <div class="cart-total">
+      <span>Total</span>
+      <strong id="cartTotal">$0</strong>
+    </div>
+
+    <button class="checkout">Finalizar compra</button>
+  </div>
+</aside>
+<footer><span>VANTA © 2026</span><span>Tienda demo · Portfolio</span></footer>
+<script src="js/app.js"></script>
+</body></html>
